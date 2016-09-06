@@ -1,0 +1,34 @@
+{
+  "name": "gulp-detect",
+  "version": "0.1.2",
+  "description": "Wraps your module-agnostic library code to support CommonJS, RequireJS and standard browser environments.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevenmhunt/gulp-detect.git"
+  },
+  "keywords": [
+    "gulp",
+    "modules",
+    "AMD",
+    "CommonJS",
+    "RequireJS",
+    "browser",
+    "window",
+    "global",
+    "detect",
+    "environment"
+  ],
+  "author": "Steven Hunt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stevenmhunt/gulp-detect/issues"
+  },
+  "homepage": "https://github.com/stevenmhunt/gulp-detect#readme",
+  "dependencies": {
+    "event-stream": "^3.3.4"
+  }
+}
