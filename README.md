@@ -15,6 +15,9 @@ Wraps your module-agnostic library code to support CommonJS, RequireJS and stand
             .pipe(gulp.dest('./dist'));
     });
 
+#### detect (globalVariable)
+- globalVariable - The name of the global variable to use within your project to add objects to or to set as the default export. The default value is `globalObject`.
+
 # How it works
 
 The gulp-detect module will take your file streams, and wrap them in an Immediately Invoking Function (IIF) 
